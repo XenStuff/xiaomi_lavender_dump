@@ -1,0 +1,27 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_ext.brand=Xiaomi
+ro.product.system_ext.device=lavender
+ro.product.system_ext.manufacturer=Xiaomi
+ro.product.system_ext.model=Redmi Note 7
+ro.product.system_ext.name=p404_lavender
+ro.system_ext.build.date=Fri Jul 22 08:49:38 UTC 2022
+ro.system_ext.build.date.utc=1658479778
+ro.system_ext.build.fingerprint=Xiaomi/p404_lavender/lavender:12/SKQ1.220702.001/xenxynon07221419:user/release-keys
+ro.system_ext.build.id=SKQ1.220702.001
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=1658479782
+ro.system_ext.build.version.release=12
+ro.system_ext.build.version.release_or_codename=12
+ro.system_ext.build.version.sdk=32
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+arm64.memtag.process.system_server=off
+persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file
