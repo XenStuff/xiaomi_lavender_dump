@@ -1,0 +1,30 @@
+####################################
+# from device/xiaomi/sdm660-common/product.prop
+####################################
+# Charger
+ro.charger.disable_init_blank=true
+ro.charger.enable_suspend=true
+# IORap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.build.characteristics=default
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+ro.support_one_handed_mode=true
+persist.sys.disable_rescue=true
+ro.com.google.gmsversion=12_202204
+ro.opa.eligible_device=true
+ro.setupwizard.rotation_locked=true
+setupwizard.theme=glif_v3_light
+ro.com.google.clientidbase=android-xiaomi
+ro.config.ringtone=Your_new_adventure.ogg
+ro.config.notification_sound=Eureka.ogg
+ro.config.alarm_alert=Fresh_start.ogg
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file
+
