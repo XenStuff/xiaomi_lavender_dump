@@ -1,0 +1,8 @@
+
+#
+# ADDITIONAL PRODUCT PROPERTIES
+#
+ro.build.characteristics=default
+ro.setupwizard.mode=DISABLED
+ro.vndk.lite=false
+ro.control_privapp_permissions=disable
