@@ -1,0 +1,37 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.odm.brand=Xiaomi
+ro.product.odm.device=lavender
+ro.product.odm.manufacturer=Xiaomi
+ro.product.odm.model=Redmi Note 7
+ro.product.odm.name=flamingo_lavender
+ro.odm.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist64=arm64-v8a
+ro.odm.build.date=Tue Aug 16 00:06:02 UTC 2022
+ro.odm.build.date.utc=1660608362
+ro.odm.build.fingerprint=Xiaomi/flamingo_lavender/lavender:12/SKQ1.220702.001/xenxynon08160006:user/release-keys
+ro.odm.build.id=SKQ1.220702.001
+ro.odm.build.tags=release-keys
+ro.odm.build.type=user
+ro.odm.build.version.incremental=eng.xenxyn.20220816.000604
+ro.odm.build.version.release=12
+ro.odm.build.version.release_or_codename=12
+ro.odm.build.version.sdk=32
+####################################
+# from device/xiaomi/sdm660-common/odm.prop
+####################################
+# Fwk detect
+ro.vendor.qti.va_odm.support=1
+####################################
+# from variable ADDITIONAL_ODM_PROPERTIES
+####################################
+ro.vendor.qti.va_odm.support=1
+####################################
+# from variable PRODUCT_ODM_PROPERTIES
+####################################
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file
