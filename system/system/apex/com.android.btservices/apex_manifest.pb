@@ -1,2 +1,0 @@
-
-com.android.btservices𫏢BlibaptX_encoder.soBlibaptXHD_encoder.soBlibaaudio.soBlibbinder_ndk.soBlibc.soBlibcgrouprc.soBlibdl.soB	liblog.soBlibm.soBlibnativehelper.soBlibstatssocket.soBlibvndksupport.soBlibz.soJlibbluetooth_jni.so
