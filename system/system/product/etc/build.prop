@@ -1,0 +1,48 @@
+####################################
+# from device/xiaomi/sdm660-common/props/product.prop
+####################################
+# Charger
+ro.charger.disable_init_blank=true
+ro.charger.enable_suspend=true
+# IORap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+dalvik.vm.systemservercompilerfilter=speed-profile
+ro.build.characteristics=default
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.input.video_enabled=false
+ro.support_one_handed_mode=true
+ro.com.google.ime.bs_theme=true
+ro.com.google.ime.theme_id=5
+ro.com.google.ime.system_lm_dir=/product/usr/share/ime/google/d3_lms
+ro.opa.eligible_device=true
+ro.setupwizard.enterprise_mode=1
+ro.setupwizard.esim_cid_ignore=00000001
+ro.setupwizard.rotation_locked=true
+setupwizard.feature.baseline_setupwizard_enabled=true
+setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false
+setupwizard.feature.show_pixel_tos=false
+setupwizard.feature.skip_button_use_mobile_data.carrier1839=true
+setupwizard.theme=glif_v3_light
+ro.config.ringtone=The_big_adventure.ogg
+ro.config.notification_sound=Popcorn.ogg
+ro.config.alarm_alert=Bright_morning.ogg
+bluetooth.profile.a2dp.source.enabled=true
+bluetooth.profile.avrcp.target.enabled=true
+bluetooth.profile.avrcp.controller.enabled=true
+bluetooth.profile.hfp.ag.enabled=true
+bluetooth.profile.asha.central.enabled=true
+bluetooth.profile.gatt.enabled=true
+bluetooth.profile.hid.host.enabled=true
+bluetooth.profile.hid.device.enabled=true
+bluetooth.profile.map.server.enabled=true
+bluetooth.profile.opp.enabled=true
+bluetooth.profile.pan.nap.enabled=true
+bluetooth.profile.pan.panu.enabled=true
+bluetooth.profile.pbap.server.enabled=true
+bluetooth.profile.sap.server.enabled=true
+# end of file
