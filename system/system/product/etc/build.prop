@@ -1,0 +1,38 @@
+####################################
+# from device/xiaomi/sdm660-common/product.prop
+####################################
+# Charger
+ro.charger.disable_init_blank=true
+ro.charger.enable_suspend=true
+# IORap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+dalvik.vm.systemservercompilerfilter=speed-profile
+ro.build.characteristics=default
+ro.dalvik.vm.enable_uffd_gc=false
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+debug.renderengine.backend=skiaglthreaded
+persist.sys.hwui.renderer=skiagl
+debug.renderthread.skia.reduceopstasksplitting=true
+ro.rice.maintainer=xenxynon
+ro.rice.code=Macapuno
+ro.riseui.code=3.0
+ro.rice.packagetype=CORE
+ro.rice.releasetype=COMMUNITY
+ro.rice.version=8.6
+ro.rice.chipset=sdm660
+ro.rice.build.version=riceDroid-13.0-2022120420-lavender-v8.6-CORE-COMMUNITY
+ro.rice.display.version=riceDroid-13.0-lavender-v8.6-CORE-COMMUNITY
+ro.rice.platform_release_codename=Tiramisu
+ro.ricelegal.url=https://www.manginasal.com/
+ro.input.video_enabled=false
+arm64.memtag.process.system_server=off
+ro.config.notification_sound=oneplus.ogg
+ro.config.alarm_alert=into_the_night.ogg
+ro.support_one_handed_mode=true
+ro.config.ringtone=into_the_night.ogg
+# end of file
